@@ -1,0 +1,66 @@
+.sectionCharity{
+    padding: 100px 50px;
+}
+.charityGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding-bottom: 100px;
+}
+.charityContent{
+    padding-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.charityContent h1{
+    font-size:66px ;
+    font-weight: 600;
+}
+.charityContent p{
+    font-size: 25px;
+}
+.charityBtn a{
+    color: #3A5D96;
+    border: 1px solid #3A5D96;
+    padding-block: 10px;
+    /* width: 90%; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 14px;
+    font-size: 20px;
+    box-shadow: -2px -2px 2px, 2px 2px 2px;
+    transition: background-color 1s ease, color 1s ease;
+}
+.charityBtn a:nth-child(1){
+    background-color: #3A5D96;
+    color: white;
+    box-shadow: -2px -2px rgb(53, 53, 53), 2px 2px rgb(53, 53, 53);
+}
+.charityBtn a:nth-child(1):hover{
+    background-color: white;
+    color: #3A5D96;
+}
+.charityBtn a:nth-child(3):hover{
+    background-color: #3A5D96;
+    color: white;
+    box-shadow: -2px -2px rgb(53, 53, 53), 2px 2px rgb(53, 53, 53);
+}
+.charityHeading{
+    text-align: center;
+    font-size: 40px;
+    padding-inline: 100px;
+}
+.sectionCharityPartners{
+    padding-top: 100px ;
+}
+.charityPartnerFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.charityPartnerFlex img{
+    width: 250px;
+}
+.charityPartnerFlex img:nth-child(2){
+    width: 600px;
+}

@@ -1,0 +1,166 @@
+.navbar{
+    margin: 50px;
+    padding: 20px 40px;
+    font-size:25px;
+}
+.navBg{
+    background-color: rgba(58, 93, 150);
+    color: white;
+   box-shadow: -2px -2px rgb(102, 102, 102) , 2px 2px rgb(102, 102, 102);
+    border-radius: 24px;
+}
+.navLogo{
+    margin-top: 7px;
+    width: 170px;
+    /* height: 70px; */
+}
+.navLogoHome{
+    margin-top: 7px;
+    width: 170px;
+    /* height: 70px; */
+    margin-left: -35px;
+}
+.navContent{
+    padding-right: 40px;
+}
+.navDark{
+    font-size: 25px;
+    margin: 50px;
+    display: flex;
+    padding-inline: 50px;
+    align-items: center;
+    background-color: rgba(58, 93, 150);
+    justify-content: space-between;
+    box-shadow: -10px -10px 10px, 10px 10px 10px;
+}
+.navbar-nav{
+    padding-left: 30px !important;
+}
+.navListDark{
+    margin-left: auto;
+    padding: 5px 30px 5px 40px;
+    padding-left: 50px;
+    border-radius: 44px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 40px;
+    background-color: white;
+    margin-bottom: 0;
+}
+.navListDark a,
+.navList a{
+    color: rgba(58, 93, 150);;
+}
+.navList{
+    margin-left: 100px;
+    display: flex;
+    gap: 40px;
+    padding-inline: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+    color: rgba(58, 93, 150); 
+    border: 1px solid white; 
+    transition: text-shadow 5s ease-in-out; 
+}
+.navList a:hover,
+.navListDark a:hover{
+    text-shadow:-2px -2px 6px rgba(58, 93, 150, 0.53), 2px 2px 6px rgba(58, 93, 150, 0.53);
+    border-bottom: 1px solid rgba(58, 93, 150);
+}
+.navLink{
+    text-decoration: none;
+}
+.navbutton{
+    /* margin-block: 16px; */
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+.navbutton a{
+    padding: 10px 20px ;
+    /* width: 140px; */
+    text-align: center;
+    border-radius: 14px;
+    text-decoration: none;
+    font-size: 20px;
+    transition: background-color 1s ease, color 1s ease;
+    box-shadow: 2px 2px 2px, -2px -2px 2px;
+}
+.navbutton a:nth-child(1){
+    background-color: white;
+    color: rgba(58, 93, 150);
+    box-shadow: 2px 2px rgb(63, 63, 63), -2px -2px rgb(63,63,63);
+}
+.navbutton a:nth-child(1):hover{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.navbutton a:nth-child(2){
+    border: 1px solid white;
+    color: white;
+}
+.navbutton a:nth-child(2):hover{
+    background-color: white;
+    color: rgba(58, 93, 150);
+}
+
+
+
+
+@media screen and (max-width: 1250px) {
+    .navbar{
+        max-width: 1100px;
+        margin: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 20px;
+        align-items: center;
+        height: 70px;
+        gap: 20px;
+    }
+    .navbar img{
+        /* padding-top: 20px; */
+        /* width: 55px; */
+    }
+    .navLink{
+        gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1000px){
+    .navbar{
+        /* height: 50px; */
+        font-size: 10px;
+    }
+    .navDark img{
+        width: 50px;
+    }
+    .navList{
+        height: 70px;
+        border-radius: 15px;
+        gap: 10px;
+    }
+    .navListDark{
+        gap: 15px;
+    }
+    .navDark{
+        padding-inline: 20px;
+    }
+    .navbutton a{
+        padding: 5px;
+        border-radius: 7px;
+    }
+    .navbutton{
+        gap: 10px;
+    }
+  }
+
+
+  @media screen and (max-width: 600px){
+    
+  }

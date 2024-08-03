@@ -1,0 +1,27 @@
+.sectionRegister{
+    display: flex;
+    justify-content: center;
+}
+.sectionRegister .sectionForm{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 25%;
+}
+.formGrid a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px;
+    border-radius: 14px;
+}
+.sectionRegister .sectionForm .formGrid a:nth-child(2) {
+    background-color: #3A5D96;
+    color: white;
+}
+.sectionRegister .sectionForm .formGrid a:nth-child(1) {
+    border: 1px solid #3A5D96;
+    color: #3A5D96;
+}
+.sectionRegister .sectionForm .formFlex:nth-child(3){
+    gap: 10px;
+}

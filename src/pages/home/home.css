@@ -1,0 +1,524 @@
+header{
+    /* background-color: rgba(58, 93, 150); */
+    /* height: 980px; */
+    margin:50px;
+    border-radius: 44px;
+    background-image: url('../../img//home.png');
+    background-repeat: no-repeat;
+}
+.homeGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding-inline: 40px 60px;
+    align-items: center;
+    /* align-items: center; */
+}
+.homeGrid div:nth-child(2){
+    padding-block: 80px;
+}
+.homeGrid img{
+    width: 90%;
+}
+.headerContent p{
+    font-family: Roboto;
+    font-size: 128px;
+    font-weight: bold;
+    color: white;
+    line-height: 140px;
+    margin-block: 30px;
+    padding-block: 0;
+}
+.headerContent a{
+    font-size: 30px;
+    padding: 10px 25px;
+    background-color: white;
+    color: rgba(58, 93, 150);
+    text-decoration: none;
+    border-radius: 17px;
+    transition: background-color 1s ease, color 1s ease;
+    border: 1px solid white;
+    box-shadow: 2px 2px rgb(63, 63, 63), -2px -2px rgb(63,63,63);
+}
+.textNrml{
+    font-weight: 200;
+}
+.headerContent a:hover{
+    background-color: transparent;
+    color: white;
+}
+.section-active-events{
+    margin: 128px 50px;
+    background-color: rgba(58, 93, 150, 0.30);
+    padding-block: 50px;
+    /* height: 1000px; */
+    border-radius: 44px;
+}
+.active-events-heading-flex{
+    display: flex;
+    /* padding-block: 40px 98px; */
+    padding-inline: 31px;
+    align-items: center;
+    justify-content: space-between;
+}
+.active-events-heading-flex div{
+    display: flex;
+    gap: 5px;
+}
+.active-events-heading-flex h1{
+    font-size: 96px;
+    color: white;
+}
+.active-events-heading-flex h1:nth-child(1){
+    color: rgba(58, 93, 150);
+}
+.active-events-heading-flex a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(58, 93, 150);
+    padding: 10px 20px;
+    border-radius: 14px;
+    box-shadow: -1px -1px black , 1px 1px black;
+    transition: background-color 1s ease, border 1s ease, color 1s ease;
+}
+.active-events-heading-flex a:hover{
+    background-color: transparent;
+    border: 1px solid rgba(58, 93, 150);
+    color: rgba(58, 93, 150);
+}
+.active-events-card-flex{
+   padding: 40px 20px;
+   row-gap: 40px;
+}
+.activeCard img{
+    /* width: auto; */
+}
+.activeCard{
+    display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: auto;
+  overflow: hidden;
+    border: 1px solid black;
+    transition: scale 1s ease;
+    background-color: white;
+    box-shadow: -2px -2px rgb(114, 113, 113) , 2px 2px rgb(114, 113, 113);
+}
+.active-event-card{
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 404px; */
+    /* background-color: white; */
+    width: auto;
+    padding-inline: 20px;
+    border-radius: 14px;
+    padding-bottom: 20px;
+    /* box-shadow: -2px -2px rgb(114, 113, 113) , 2px 2px rgb(114, 113, 113); */
+}
+.activeCard:hover{
+    scale: 1.05;
+}
+.active-event-card img{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.active-event-card-content{
+    /* padding-inline: 10px; */
+}
+.active-event-card h3{
+    font-size:24px;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    font-family: Inter;
+    padding-block: 5px;
+    margin-top: -40px;
+}
+.eventDate{
+    position: relative;
+    top: -230px;
+    background-color: rgba(176, 176, 176, 0.618);
+    width: 200px;
+    color: white;
+    padding: 10px;
+    left: 20px;
+    border-radius: 14px;
+}
+.active-event-card-content div{
+    display: flex;
+    gap: 10px;
+}
+.active-event-card-content h6{
+    padding: 5px 10px;
+    background-color: rgba(58, 93, 150);
+    color: white;
+    border-radius: 8px;
+    margin: 0;
+}
+.active-event-card-content p{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: gray;
+    margin: 0;
+    padding-block: 10px;
+    border-bottom: 1px dashed gray;
+}
+.active-event-card-content h5{
+    color: gray;
+}
+.active-event-card-content a{
+    width: 100%;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(58, 93, 150);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding-block: 8px;
+    border-radius: 14px;
+}
+.section-runner-portal{
+    margin-inline: 50px;
+    background-color: rgba(58, 93, 150, 0.30);
+    height: 1271px;
+    border-radius: 44px;
+}
+.portalHeading{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 60px;
+    color: rgba(58, 93, 150);
+    top: 30px;
+    left: 270px;
+}
+.portal-img {
+    position:absolute;
+    border-radius: 50px;
+}
+.portal-image {
+    position: relative;
+    padding-top: 100%; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portal-img-1 {
+    top: 25%;
+    left: 40%;
+    width: 30%;  
+}
+.portal-img-2 {
+    top: 30%;
+    left: 21%;
+    width: 50%;
+}
+.portal-img-3 {
+    top: 48%;
+    left: 21%;
+    width: 44%;
+}
+.portalHeading h1:nth-child(2){
+    color: white;
+}
+.sectionMissionVision{
+    margin:128px 50px 0px 50px;
+}
+.sectionMissionVision img{
+    position: absolute;
+    z-index: -1;
+}
+.visionHeading{
+    width: 500px;
+    position: relative;
+    top: 350px;
+    font-size: 80px;
+    color: white;
+    left: 70px;
+    /* z-index: 999; */
+}
+.sectionMission{
+    position: relative;
+    padding: 50px 20px;
+    border-radius: 14px;
+    width: 750px;
+    background-color: rgba(58, 93, 150);
+    color: white;
+    top: -80px;
+    left: 550px;
+    box-shadow: -4px -4px 4px, 4px 4px 4px;
+}
+.visionGrid{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.missionFlex .visionGrid:nth-child(1){
+    border-bottom: 1px solid white;
+}
+.visionGrid h2{
+    font-size: 2em;
+}
+.visionGrid p{
+    font-size: 1.5em;
+}
+.sectionOurProgram{
+    /* width: 1340px; */
+    /* margin: 0; */
+    margin-top: 100px;
+    /* background-image: url('../../img//ourProgram.png');
+    background-repeat: no-repeat;
+    background-position: center; */
+}
+.ourprogram{
+    padding: 128px 50px;
+}
+.sectionOurProgram h1{
+    text-align: center;
+    font-size: 50px;
+}
+.programCardFlex{
+    display: flex;
+    justify-content: space-between;
+}
+.programCardFlex img{
+    transition: transform 1s ease;
+}
+.programCardFlex img:hover{
+    transform: translateY(-20px);
+}
+.programheading{
+    color: rgba(58, 93, 150);
+}
+.section-marathon-cards{
+    margin:0px 50px 128px 50px;
+    padding-inline: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.marathonCardFlex{
+    display: flex;
+}
+.marathonIcon{
+    position: relative;
+    top: 130px;
+    left: -30px;
+    font-size: 5em;
+    padding: 20px;
+    color: white;
+    border-radius: 14px;
+    background-color: rgba(58, 93, 150);
+}
+.marathonCard{
+    background-color:#f2f2f2;
+    padding: 20px 40px 20px 100px;
+    /* position: absolute; */
+    z-index: -1;
+    width: 800px;
+    border-radius: 14px;
+    transition: box-shadow 1s ease;
+}
+.marathonCard h1{
+    font-size: 3em;
+}
+.marathonCard p{
+    font-size: 1.5em;
+}
+.marathonCard:hover{
+    box-shadow: -5px -5px 5px, 5px 5px 5px;
+}
+
+
+
+@media screen and (max-width: 1200px){
+    .headerContent p{
+        font-size: 70px;
+    }
+    .headerContent a{
+        font-size: 15px;
+    }
+    .homeGrid img{
+        width: 85%;
+    }
+    .active-events-heading-flex h1{
+        font-size: 70px;
+    }
+    .active-events-heading-flex a{
+        font-size: 20px;
+    }
+    
+    .sectionMissionVision img{
+        width: 50%;
+    }
+    .sectionMission{
+        width: 50%;
+        top: -200px;
+    }
+    .visionGrid h2{
+        font-size: 1.5em;
+    }
+    .visionGrid p{
+        font-size: 1em;
+    }
+    .visionHeading{
+        top: 200px;
+        font-size: 40px;
+    }
+    .sectionMission{
+        top: -80px;
+        left: 350px;
+        padding-block: 20px;
+    }
+    .programCardFlex{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 40px;
+        row-gap: 20px;
+    }
+    .section-marathon-cards{
+        padding-inline: 50px;
+    }
+    .marathonCard{
+        /* width: 700px; */
+        padding: 20px 20px 20px 70px;
+    }
+    .marathonCard h1{
+        font-size: 2em;
+    }
+    .marathonCard p{
+        font-size: 1em;
+    }
+    .marathonIcon{
+        top: 150px;
+        left: -70px;
+    }
+    .section-marathon-cards{
+        gap: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    
+    .active-event-card h3{
+        font-size: 20px;
+        margin-top: -70px;
+    }
+    .portalHeading{
+        font-size:40px ;
+        height: 900px;
+    }
+    .marathonCard{
+        padding-left: 50px;
+    }
+    .programCardFlex img{
+        width:350px;
+    }
+    .marathonCard{
+        width: 600px;
+    }
+    .active-event-card-content p{
+        font-size: 15px;
+    }
+    .eventDate{
+        top: -180px;
+        border-radius: 8px;
+    }
+}
+
+
+
+@media screen and (max-width: 750px){
+    .headerContent p{
+        font-size: 40px;
+    }
+    .homeGrid div:nth-child(2){
+        padding-block: 50px;
+    }
+    .active-events-heading-flex h1{
+        font-size: 50px;
+    }
+    .portalHeading{
+        font-size: 20px;
+    }
+    .sectionMissionVision img{
+        width: 75%;
+    }
+    .programCardFlex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .visionGrid h2{
+        font-size: 1em;
+    }
+    .visionGrid p{
+        font-size: 0.8em;
+    }
+    .sectionMission{
+        left: 280px;
+        top: -110px;
+    }
+    .marathonCard{
+        width: 400px;
+    }
+    .active-events-heading-flex{
+        flex-direction: column;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+    .headerContent{
+        font-size: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 550px){
+    .headerContent p{
+        font-size: 30px;
+    }
+    .headerContent a{
+        font-size: 10px;
+        padding-inline: 15px;
+        border-radius: 12px;
+    }
+    .section-active-events{
+        margin-block: 50px;
+    }
+    .sectionMissionVision img{
+        width: 70%;
+        height: 75%;
+    }
+    .visionHeading{
+        font-size: 30px;
+        top: 230px;
+        left: 20px;
+        width: 200px;
+    }
+    .sectionMission{
+        left: 200px;
+        top: -50px;
+    }
+    .marathonCard{
+        width: 300px;
+    }
+    .marathonIcon{
+        top: 210px;
+    }
+    .sectionMissionVision{
+        margin-block: 50px;
+    }
+    .sectionOurProgram{
+        padding-block: 50px;
+    }
+    .section-marathon-cards{
+        margin-block: 50px;
+        gap: 20px;
+    }
+}

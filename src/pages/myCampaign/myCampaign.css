@@ -1,0 +1,95 @@
+.sectionMyCampaign{
+    margin: 128px 50px;
+    background-color: rgba(58, 93, 150, 0.30);
+    padding-block: 50px;
+    border-radius: 44px;
+}
+.myCampaignHeading{
+    display: flex;
+    padding-inline: 31px;
+    align-items: center;
+    justify-content: space-between;
+}
+.myCampaignHeading div{
+    display: flex;
+    gap: 10px;
+}
+.myCampaignHeading h1{
+    font-size: 96px;
+    color: white;
+}
+.myCampaignHeading h1:nth-child(2){
+    color: rgba(58, 93, 150);
+}
+.myCampaignHeading a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    background-color: rgba(58, 93, 150);
+    padding: 10px 20px;
+    border-radius: 14px;
+    box-shadow: -1px -1px black , 1px 1px black;
+}
+.campaignCardGrid{
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+    padding-inline:31px;
+    justify-content: space-between;
+    row-gap: 40px;
+}
+.campaignCard{
+    display: flex;
+    flex-direction: column;
+    /* width: 404px; */
+    background-color: white;
+    border-radius: 14px;
+    padding-bottom: 20px;
+    box-shadow: -2px -2px rgb(114, 113, 113) , 2px 2px rgb(114, 113, 113);
+    transition: scale 1s ease;
+}
+.campaignCard:hover{
+    scale: 1.05;
+}
+.campaignCard img{
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.cardContent{
+    padding:0  10px 20px 10px;
+}
+.cardHeadingFlex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardHeadingFlex h3{
+    font-size: 22px;
+    font-weight: 500;
+}
+.cardContent h4{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0;
+}
+.cardContent p{
+    font-size: 20px;
+    margin: 0;
+}
+.cardHeadingFlex img{
+    height: 30px;
+}
+.cardContent a{
+    display: block;
+    background-color: rgba(58, 93, 150);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    padding-block: 8px;
+    border-radius: 14px;
+    font-size: 16px;
+    color: white;
+}

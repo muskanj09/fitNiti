@@ -1,0 +1,56 @@
+.sectionCampaign{
+    display: flex;
+    justify-content: center;
+}
+.sectionForm{
+    margin: 50px 80px;
+    padding: 20px 40px;
+    background-color: #D9D9D9;
+    border-radius: 24px;
+    width: 30%;
+}
+.campaignHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+select,
+input[type='text'],
+input[type='number'],
+input[type='date'],
+textarea{
+    color: rgba(58, 93, 150);;
+    padding: 14px;
+    border-radius: 8px;
+    border: none;
+}
+button{
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+}
+button[type=submit]{
+    background-color: rgba(58, 93, 150);
+    color: white; 
+}
+button[type='reset']{
+    border: 1px solid rgba(58, 93, 150);
+    color: rgba(58, 93, 150);
+}
+label{
+    color: rgba(58, 93, 150);
+}
+input::placeholder{
+    color: rgba(58, 93, 150);
+}
+.formGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding-block: 10px;
+}
+.formFlex{
+    display: flex;
+    flex-direction: column;
+    padding-block: 10px;
+}
