@@ -18,21 +18,23 @@ const Footer = () => {
         </div>
         <div>
           <h2>Useful links</h2>
-          <div className="footerGrid">
-            <Link to='/'>Home</Link>
-            <Link to='/events'>Events</Link>
-            <Link to='/results'>Results</Link>
-            <Link to='/charity'>Charity</Link>
-            <Link to='/blogs'>Blogs</Link>
+          <div className="footerGrid row">
+            <Link to='/' className='col-4'>Home</Link>
+            <Link to='/events' className='col-5'>Events</Link>
+            <Link to='/results' className='col-4'>Results</Link>
+            <Link to='/charity' className='col-5'>Charity</Link>
+            <Link to='/blogs' className='col-4'>Blogs</Link>
           </div>
         </div>
         <div>
           <h2>Our socials</h2>
-          <div className="footerGrid">
-            <RiInstagramFill className='footerIcon' />
-            <FaYoutube className='footerIcon' />
-            <FaFacebook className='footerIcon' />
-            <FaTwitter className='footerIcon' />
+          <div className="footerGrid row">
+            <a href="https:/instagram.com" className='col-4'><RiInstagramFill className='footerIcon ' /></a>
+            <a href="https:/youtube.com" className='col-5'><FaYoutube className='footerIcon col-5' /></a>
+            <a href="https:/facebook.com" className='col-4'><FaFacebook className='footerIcon col-4' /></a>
+            <a href="https:/x.com" className='col-5'><FaTwitter className='footerIcon col-5' /></a>
+            
+            
           </div>
         </div>
         <div className='footerContact'>

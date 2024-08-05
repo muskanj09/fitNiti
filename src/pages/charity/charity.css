@@ -64,3 +64,23 @@
 .charityPartnerFlex img:nth-child(2){
     width: 600px;
 }
+
+
+
+@media screen and (max-width:1000px) {
+    .sectionCharity{
+        padding: 20px 50px;
+    }
+    .charityGrid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .charityPartnerFlex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .charityHeading{
+        padding-inline: 10px;
+    }
+}

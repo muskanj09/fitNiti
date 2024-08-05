@@ -15,14 +15,14 @@ const Campaign = () => {
     <form action="post">
       <div className="formGrid row">
         <select id="selectOrg"className='col-5'  name="selectOrg">
-          <option value={1}>Select Organization</option>
+          <option value={1} disabled hidden>Select Organization</option>
           <option value={1}>1</option>
           <option value={1}>1</option>
           <option value={1}>1</option>
         </select>
         <div className="col-1"></div>
         <select id="selectOrg" className='col-5'  name="selectOrg">
-          <option value={1}>Select NGO</option>
+          <option value={1}disabled hidden>Select NGO</option>
           <option value={1}>1</option>
           <option value={1}>1</option>
           <option value={1}>1</option>

@@ -1,7 +1,7 @@
 .navbar{
     margin: 50px;
     padding: 20px 40px;
-    font-size:25px;
+    font-size:20px;
 }
 .navBg{
     background-color: rgba(58, 93, 150);
@@ -53,17 +53,15 @@
     color: rgba(58, 93, 150);;
 }
 .navList{
-    margin-left: 100px;
+    margin-left: 130px;
     display: flex;
-    gap: 40px;
-    padding-inline: 20px;
+    gap: 45px;
+    padding-inline: 40px;
     align-items: center;
     justify-content: space-between;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    background-color: white;
+    /* background-color: white; */
     color: rgba(58, 93, 150); 
-    border: 1px solid white; 
+    /* border: 1px solid white;  */
     transition: text-shadow 5s ease-in-out; 
 }
 .navList a:hover,
@@ -81,7 +79,7 @@
     gap: 20px;
 }
 .navbutton a{
-    padding: 10px 20px ;
+    padding: 5px 10px ;
     /* width: 140px; */
     text-align: center;
     border-radius: 14px;
@@ -107,6 +105,7 @@
 .navbutton a:nth-child(2):hover{
     background-color: white;
     color: rgba(58, 93, 150);
+    box-shadow: 2px 2px 2px rgb(63, 63, 63), -2px -2px 2px rgb(63,63,63);
 }
 
 

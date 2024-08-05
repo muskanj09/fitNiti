@@ -28,14 +28,17 @@ button{
     padding: 8px;
     border-radius: 8px;
     border: none;
+
 }
 button[type=submit]{
     background-color: rgba(58, 93, 150);
     color: white; 
+    border-radius: 8px;
 }
 button[type='reset']{
     border: 1px solid rgba(58, 93, 150);
     color: rgba(58, 93, 150);
+    border-radius: 8px;
 }
 label{
     color: rgba(58, 93, 150);

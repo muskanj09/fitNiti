@@ -25,7 +25,7 @@ const Results = () => {
           <a href="#" className='col-md-2 col-sm-4'>Search <CiSearch /></a>
         </div>
         <div className="active-events-card-flex row">
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -39,12 +39,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -58,12 +58,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -77,12 +77,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -96,12 +96,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -115,12 +115,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -134,12 +134,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -153,12 +153,12 @@ const Results = () => {
                 <p><CiLocationOn /> AnyWhere in the World!!</p>
                 <h5>Registration closed on 30 Jul 2024</h5>
                 <div>
-                  <Link to='/detailedEvent'>Register</Link>
+                  <Link to='/detailedEvent'>View Results</Link>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="activeCard">
             <img src={activeCard} alt="" />
             <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -172,12 +172,12 @@ const Results = () => {
               <p><CiLocationOn /> AnyWhere in the World!!</p>
               <h5>Registration closed on 30 Jul 2024</h5>
               <div>
-                <Link to='/detailedEvent'>Register</Link>
+                <Link to='/detailedEvent'>View Results</Link>
               </div>
             </div>
           </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="activeCard">
             <img src={activeCard} alt="" />
             <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -191,7 +191,7 @@ const Results = () => {
               <p><CiLocationOn /> AnyWhere in the World!!</p>
               <h5>Registration closed on 30 Jul 2024</h5>
               <div>
-                <Link to='/detailedEvent'>Register</Link>
+                <Link to='/detailedEvent'>View Results</Link>
               </div>
             </div>
           </div>

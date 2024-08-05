@@ -13,6 +13,7 @@
     text-align: center;
     padding: 14px;
     border-radius: 14px;
+    box-shadow: 2px 2px 2px, -2px -2px 2px;
 }
 
 .sectionLogin .sectionForm .formGrid a:nth-child(1) {
@@ -31,4 +32,28 @@ input[type='email']{
 }
 .sectionLogin .sectionForm .formFlex:nth-child(3){
     gap: 10px;
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .sectionLogin .sectionForm{
+        width: 40%;
+    }
+}
+
+
+
+@media screen and (max-width:700px) {
+    .sectionLogin .sectionForm{
+        width: 55%;
+    }
+}
+
+
+
+@media screen and (max-width:500px) {
+    .sectionLogin .sectionForm{
+        width: 70%;
+    }
 }

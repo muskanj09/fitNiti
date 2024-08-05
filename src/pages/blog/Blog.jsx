@@ -20,7 +20,7 @@ const Blog = () => {
           <a href="#" className='col-md-2 col-sm-4'>Search <CiSearch /></a>
         </div>
         <div className="active-events-card-flex row">
-        <div className="col-md-4 col-sm-6 col-xs-12">
+        <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -32,7 +32,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -44,7 +44,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -56,7 +56,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -68,7 +68,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -80,7 +80,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -92,7 +92,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -104,7 +104,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">
@@ -116,7 +116,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={blog} alt="" />
               <div className="active-event-card-content blogContent active-event-card">

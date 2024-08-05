@@ -10,7 +10,7 @@ const DetailedEvent = () => {
     <>
     <Navbar />
     <div className="sectionDetailedEvent">
-      <img src={EventImg} alt="" />
+      <img src={EventImg} className='col-12' alt="" />
       <p className='detailedEventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
       <h1>Virtual  Run Challenge - Jul 2024</h1>
       <div className="eventFlex">

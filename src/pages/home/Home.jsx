@@ -72,7 +72,7 @@ const Home = () => {
           <a href="#" className='col-md-2 col-sm-4'>Search <CiSearch /></a>
         </div>
         <div className="active-events-card-flex row">
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className=" activeCard">
               <img src={activeCard} alt="" />
               <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -91,7 +91,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="activeCard">
             <img src={activeCard} alt="" />
             <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -110,7 +110,7 @@ const Home = () => {
             </div>
           </div>
           </div>
-          <div className="col-md-4 col-sm-6 col-xs-12">
+          <div className="col-lg-4 col-md-6 col-sm-12">
             <div className="activeCard">
             <img src={activeCard} alt="" />
             <p className='eventDate'><FaCalendarAlt /> 1st - 31st jul,2024</p>
@@ -133,7 +133,7 @@ const Home = () => {
       </section>
       <section className='section-runner-portal'>
         <div className="portal-image">
-          <div className="portalHeading">
+          <div className="portalHeading col-12">
             <h1>The</h1>
             <h1>Runner's </h1>
             <h1>portal</h1>

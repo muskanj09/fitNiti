@@ -35,7 +35,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
                 
               </div>
             </div>
@@ -51,7 +51,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -66,7 +66,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -111,7 +111,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ const MyCampaign = () => {
                 <h4>In Support Of Seva Bharathi</h4> 
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat </p>
                 <h3>1,00,000</h3>
-                <Link to='/detailedBlog'>Read</Link>
+                <Link to='/editCampaign'>Edit</Link>
               </div>
             </div>
           </div>

@@ -13,16 +13,16 @@ const Charity = () => {
       <Navbar />
       <section className='sectionCharity'>
         <div className="charityGrid row">
-          <div className="charityContent col-6">
+          <div className="charityContent col-lg-6">
             <h1>Make a donation or launch a fund-raising campaign</h1>
             <p>Make a difference by supporting our charity partners in society to demonstrate their presence and work in many areas such as health, education, environment and other causes.</p>
             <div className="charityBtn row">
-              <Link className='col-5' to='/campaign'>Campaign</Link>
+              <Link className='col-5' to='/campaign'>Create Campaign</Link>
               <div className="col-2"></div>
               <Link to='/myCampaign' className='col-5'>My Campaign</Link>
             </div>
           </div>
-          <img src={Campaign} className='col-6' alt="" />
+          <img src={Campaign} className='col-lg-6' alt="" />
         </div>
         <h1 className='charityHeading'>Please find below the list of charities and non-profit organizations we currently support.</h1>
         <section className='sectionCharityPartners'>

@@ -13,7 +13,7 @@ import Campaign from './pages/champaign/Campaign'
 import DetailedEvent from './pages/detailedEvent/DetailedEvent'
 import DetailedBlog from './pages/detailedBlog/DetailedBlog'
 import MyCampaign from './pages/myCampaign/MyCampaign'
-
+import EditCampaign from './pages/editCampaign/EditCampaign'
 const App = () => {
   return (
     <>
@@ -31,6 +31,7 @@ const App = () => {
         <Route path='/detailedEvent' element={<DetailedEvent />} />
         <Route path='/detailedBlog' element={<DetailedBlog />} />
         <Route path='/myCampaign' element={<MyCampaign />} />
+        <Route path='/editCampaign' element={<EditCampaign />} />
       </Routes>
       {/* <Footer /> */}
     </BrowserRouter>

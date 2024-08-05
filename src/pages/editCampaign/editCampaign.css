@@ -1,0 +1,45 @@
+.campaignDetail,
+.registrationDetails {
+    padding: 128px 100px;
+    width: 100%;
+}
+.campaignContent,
+.registrationContent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.campaignInput {
+    border: 1px solid black !important;
+    width: 100%;
+}
+input[type='radio'] {
+    display: none;
+}
+input[type='radio']:checked+.radioLabel {
+    border: 1px solid black;
+}
+button:active,
+button:visited{
+    background-color: #3A5D96;
+    color: white;
+}
+.campaignContent a,
+.registrationContent a {
+    display: block;
+    border: 1px solid black;
+    text-align: center;
+    padding-block: 15px;
+    text-decoration: none;
+    border-radius: 14px;
+    box-shadow: -1px -1px black, 1px 1px black;
+}
+.btnMain {
+    background-color: #3A5D96;
+    color: white;
+}
+.btnOutline {
+    background-color: transparent;
+    color: #3A5D96;
+    border: 1px solid #3A5D96;
+}
