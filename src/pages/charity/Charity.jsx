@@ -18,7 +18,7 @@ const Charity = () => {
             <p>Make a difference by supporting our charity partners in society to demonstrate their presence and work in many areas such as health, education, environment and other causes.</p>
             <div className="charityBtn row">
               <Link className='col-5' to='/campaign'>Create Campaign</Link>
-              <div className="col-2"></div>
+              <div className="col-1"></div>
               <Link to='/myCampaign' className='col-5'>My Campaign</Link>
             </div>
           </div>

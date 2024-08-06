@@ -1,31 +1,58 @@
 .campaignDetail,
-.registrationDetails {
-    padding: 128px 100px;
+.registrationDetails,
+.contactInfo {
+    padding: 50px 100px;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
+
+.uploadImg {
+    padding: 50px 100px;
+    width: 100%;
+    text-align: center;
+}
+
 .campaignContent,
-.registrationContent {
+.registrationContent,
+.contactContent {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
+
+.sectionImg {
+    text-align: center;
+}
+
+.campaignContent img,
+.registrationContent img,
+.contactContent img {
+    padding-inline: auto;
+}
+
 .campaignInput {
     border: 1px solid black !important;
     width: 100%;
 }
+
 input[type='radio'] {
     display: none;
 }
+
 input[type='radio']:checked+.radioLabel {
     border: 1px solid black;
 }
+
 button:active,
-button:visited{
+button:visited {
     background-color: #3A5D96;
     color: white;
 }
+
 .campaignContent a,
-.registrationContent a {
+.registrationContent a,
+.contactContent a {
     display: block;
     border: 1px solid black;
     text-align: center;
@@ -34,12 +61,67 @@ button:visited{
     border-radius: 14px;
     box-shadow: -1px -1px black, 1px 1px black;
 }
+
 .btnMain {
     background-color: #3A5D96;
     color: white;
 }
+
 .btnOutline {
     background-color: transparent;
     color: #3A5D96;
     border: 1px solid #3A5D96;
 }
+
+.imageLabel {
+    font-size: 30px;
+    background-color: #d9d9d9;
+    padding: 0 10px;
+    border-radius: 4px;
+    color: black;
+}
+
+.uploadBg {
+    display: inline-block;
+    background-color: #b1b1b1;
+    padding: 20px;
+    border-radius: 14px;
+    margin-block: 10px;
+}
+
+.uploadImg h3 {
+    color: gray;
+    margin-block: 10px;
+    font-weight: 400;
+}
+
+.campaignImg {
+    overflow: hidden;
+}
+
+
+@media(max-width:1250px) {
+    .campaignImg {
+        max-width: 400px;
+    }
+}
+
+@media(max-width:550px) {
+    .campaignImg {
+        max-width: 300px;
+    }
+    .campaignDetail,
+    .registrationDetails,
+    .contactInfo {
+        padding: 50px;
+        gap: 20px;
+    }
+}
+
+
+
+/* @media screen and (min-width: 1000px) {
+    body{
+      background-color: lightgreen;
+    }
+  }  */

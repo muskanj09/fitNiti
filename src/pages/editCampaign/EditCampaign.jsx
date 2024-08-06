@@ -4,15 +4,16 @@ import Navbar from '../../components/navbar/Navbar'
 import Footer from '../../components/footer/Footer'
 import campaignDetail from '../../img/campaignDetail.png'
 import registrationDetail from '../../img/registrationDetail.png'
+import contactInfo from '../../img/contactInfo.png'
 const EditCampaign = () => {
     return (
         <>
             <Navbar />
             <div className="campaignDetail row">
-                <div className="col-6">
-                    <img src={campaignDetail} alt="" />
+                <div className="sectionImg col-lg-6 col-md-12">
+                    <img src={campaignDetail} className='campaignImg' alt="" />
                 </div>
-                <div className="col-6 campaignContent">
+                <div className="col-lg-6 col-md-12 campaignContent">
                     <h1>Campaign Details Section</h1>
                     <p>Update details about your campaign</p>
                     <div>
@@ -58,7 +59,7 @@ const EditCampaign = () => {
                 </div>
             </div>
             <div className="registrationDetails row">
-                <div className="registrationContent col-6">
+                <div className="registrationContent col-lg-6 col-md-12">
                     <h1>Registration Details Section</h1>
                     <p>Manage registration details</p>
                 <div>
@@ -79,9 +80,46 @@ const EditCampaign = () => {
                         </div>
 
                     </div>
-                    <div className='col-6'>
-                    <img src={registrationDetail} alt="" />
+                    <div className='sectionImg  col-lg-6 col-md-12'>
+                    <img src={registrationDetail} className='campaignImg' alt="" />
                 </div>
+            </div>
+            <div className="contactInfo row">
+                    <div className="sectionImg col-lg-6 col-md-12">
+                        <img src={contactInfo} className='campaignImg' alt="" />
+                    </div>
+                    <div className="contactContent col-lg-6 col-md-12">
+                        <h1>Contact Information Section</h1>
+                        <p>Update contact details for the campaign</p>
+                        <div>
+                            <label htmlFor="contactEmail">Contact Email</label>
+                            <input type="email" className='campaignInput' name="contactEmail" id="contactEmail" placeholder='Enter Contact Email' />
+                        </div>
+                        <div>
+                            <label htmlFor="phoneNum">Phone Number</label>
+                            <input type="number" className='campaignInput' name="phoneNum" id="phoneNum" placeholder='Enter Phone Number' />
+                        </div>
+                        <div className="row">
+                        <div className="col-6">
+                            <a href="#" className='btnOutline'>Cancel</a>
+                        </div>
+                        <div className="col-6">
+                            <a href="#" className='btnMain'>Save</a>
+                        </div>
+                        </div>
+                    </div>
+            </div>
+            <div className="uploadImg">
+                <div className='uploadBg'>
+                    <label htmlFor="imageUpload" className='imageLabel'>+</label>
+                </div>
+                
+                <input type="file" name="imageUpload" id="imageUpload" accept='image/*' style={{fontSize:'0', position:"absolute", left:"-999px"}} />
+                <div>
+                 <h1>Image Gallery</h1>
+                <h3>Upload images from campaign <br /> events</h3>   
+                </div>
+                
             </div>
             <Footer />
         </>

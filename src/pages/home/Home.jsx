@@ -54,11 +54,11 @@ const Home = () => {
           </div>
         </nav>
         <div className="homeGrid row">
-          <div className="headerContent col-6">
-            <p>As We Run, <span className='textNrml'> We Become</span> </p>
+          <div className="headerContent col-md-6">
+            <p><span className='fontBold'>As We <br /> Run,</span>  <span className='textNrml'> We <br /> Become</span> </p>
             <Link to='/events'>Explore Events</Link>
           </div>
-          <div className='col-6'>
+          <div className='col-md-6'>
             <img src={HeaderImg} alt="" />
           </div>
         </div>

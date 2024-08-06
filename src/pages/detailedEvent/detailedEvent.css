@@ -49,6 +49,11 @@
     color: white;
     text-decoration: none;
     border-radius: 15px;
+    box-shadow: -1px -1px black , 1px 1px black;
+}
+.eventGrid a:hover{
+    background-color: transparent;
+    color: #3A5D96;
 }
 .detailedEventDate{
     position: relative;
